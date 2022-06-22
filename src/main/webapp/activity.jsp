@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
 <!doctype html>
 <html lang="pt-br">
 <head>
@@ -14,7 +16,7 @@
 </head>
 <body>
     <header class="container">
-            <a href="./dashboard.html" class="btn btn-link"><img src="./img/arrow.svg" alt="Voltar"></a>
+            <a href="./dashboard.jsp" class="btn btn-link"><img src="./img/arrow.svg" alt="Voltar"></a>
             <figure id="logo"><img src="./img/logo.svg" alt="Logo HealthTrack"></figure>
             <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal-activity">
                 <img src="./img/add.svg" alt="Adicionar treino">
@@ -139,17 +141,17 @@
                 </a>
             </li>
             <li class="nav-item col-3">
-                <a href="./weigth.html" class="btn btn-link">
+                <a href="./weigth.jsp" class="btn btn-link">
                     <img src="./img/bar-chart.svg">
                 </a>
             </li>
             <li class="nav-item col-3">
-                <a href="./traking.html" class="btn btn-link">
+                <a href="./traking.jsp" class="btn btn-link">
                     <img src="./img/trending.svg">
                 </a>
             </li>
             <li class="nav-item col-3">
-                <a href="./settings.html" class="btn btn-link">
+                <a href="./settings.jsp" class="btn btn-link">
                     <img src="./img/settings.svg">
                 </a>
             </li>

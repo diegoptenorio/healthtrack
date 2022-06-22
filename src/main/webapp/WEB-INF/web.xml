@@ -1,0 +1,4 @@
+<servlet-mapping>
+    <servlet-name>PesoListaServlet</servlet-name>
+    <url-pattern>/listar-peso</url-pattern>
+</servlet-mapping>

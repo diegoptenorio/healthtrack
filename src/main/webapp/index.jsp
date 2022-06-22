@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
 <!doctype html>
 <html lang="pt-br">
 <head>
@@ -43,7 +45,7 @@
                         >
                     </div>
                     <div class="form-text"><a href="#">Recuperar senha</a></div>
-                    <a href="./dashboard.html" class="btn btn-primary full-width">Entrar</a>
+                    <a href="./dashboard.jsp" class="btn btn-primary full-width">Entrar</a>
                 </div>
             </fieldset>
             <div class="form-text"><a href="#">Registre-se</a></div>

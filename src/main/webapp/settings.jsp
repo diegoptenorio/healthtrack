@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
 <!doctype html>
 <html lang="pt-br">
 <head>
@@ -14,7 +16,7 @@
 </head>
 <body>
     <header class="container">
-            <a href="./dashboard.html" class="btn btn-link"><img src="./img/arrow.svg" alt="Voltar"></a>
+            <a href="./dashboard.jsp" class="btn btn-link"><img src="./img/arrow.svg" alt="Voltar"></a>
             <figure id="logo"><img src="./img/logo.svg" alt="Logo HealthTrack"></figure>
             <button type="button" class="btn btn-link">
             </button>
@@ -29,7 +31,7 @@
             <div class="col-sm-8 user-data">
                 <div class="col-12">
                 <h1>Visitante</h1>
-                <a href="./index.html" class="btn btn-link btn-link-icon">
+                <a href="./index.jsp" class="btn btn-link btn-link-icon">
                     <img src="./img/log-out.svg" alt="Sair">
                     Sair
                 </a></div>
@@ -58,17 +60,17 @@
     <footer>
         <ul class="nav container main-menu">
             <li class="nav-item col-3">
-                <a href="./activity.html" class="btn btn-link">
+                <a href="./activity.jsp" class="btn btn-link">
                     <img src="./img/activity.svg">
                 </a>
             </li>
             <li class="nav-item col-3">
-                <a href="./weigth.html" class="btn btn-link">
+                <a href="./weigth.jsp" class="btn btn-link">
                     <img src="./img/bar-chart.svg">
                 </a>
             </li>
             <li class="nav-item col-3">
-                <a href="./traking.html" class="btn btn-link">
+                <a href="./traking.jsp" class="btn btn-link">
                     <img src="./img/trending.svg">
                 </a>
             </li>

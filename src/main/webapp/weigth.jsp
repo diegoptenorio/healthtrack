@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
 <!doctype html>
 <html lang="pt-br">
 <head>
@@ -14,7 +16,7 @@
 </head>
 <body>
     <header class="container">
-            <a href="./dashboard.html" class="btn btn-link">
+            <a href="./dashboard.jsp" class="btn btn-link">
                 <img src="./img/arrow.svg" alt="Voltar">
             </a>
             <figure id="logo"><img src="./img/logo.svg" alt="Logo HealthTrack"></figure>
@@ -138,7 +140,7 @@
     <footer>
         <ul class="nav container main-menu">
             <li class="nav-item col-3">
-                <a href="./activity.html" class="btn btn-link">
+                <a href="./activity.jsp" class="btn btn-link">
                     <img src="./img/activity.svg">
                 </a>
             </li>
@@ -148,12 +150,12 @@
                 </a>
             </li>
             <li class="nav-item col-3">
-                <a href="./traking.html" class="btn btn-link">
+                <a href="./traking.jsp" class="btn btn-link">
                     <img src="./img/trending.svg">
                 </a>
             </li>
             <li class="nav-item col-3">
-                <a href="./settings.html" class="btn btn-link">
+                <a href="./settings.jsp" class="btn btn-link">
                     <img src="./img/settings.svg">
                 </a>
             </li>
